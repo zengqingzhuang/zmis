@@ -1,0 +1,3 @@
+# finbox vue mixin
+
+

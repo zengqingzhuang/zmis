@@ -1,0 +1,13 @@
+{
+    "repos": "",
+    "description": "",
+    "name": "finbox",
+    "main": "index.js",
+    "version": "0.0.1",
+    "tag": "master",
+    "reposType": "icode",
+    "dependencies": {},
+    "paths": {
+        "dist": "."
+    }
+}

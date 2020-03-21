@@ -1,6 +1,6 @@
 /**
  * @file vuex store
- * @author yuchao03(yuchao03@baidu.com)
+ * @author dazhuang(zengqingzhuang@baidu.com)
  *
  * @since 2017/09/15
  */

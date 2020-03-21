@@ -1,6 +1,6 @@
 /**
  * @file apiMessage.js
- * @author yuchao03(yuchao03@baidu.com)
+ * @author dazhuang(zengqingzhuang@baidu.com)
  * @desc 接口状态码统一处理
  * @since 2017/11/02
  */

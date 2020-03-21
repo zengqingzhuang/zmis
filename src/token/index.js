@@ -1,6 +1,6 @@
 /**
  * @file token
- * @author ienix(guoaimin01@baidu.com)
+ * @author dazhuang(zengqingzhuang@baidu.com)
  *
  * @since 2018/1/9
  */

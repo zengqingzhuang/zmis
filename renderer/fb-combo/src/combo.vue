@@ -11,9 +11,9 @@
     import FbSheet from '../../fb-form/src/sheet';
     export default {
     	data() {
-    		return {
+    	    return {
                 comboData: []
-    		}
+    	    }
     	},
     	mixins: [mixinSchema],
         beforeCreate() {

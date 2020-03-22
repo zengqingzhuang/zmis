@@ -5,7 +5,7 @@
      * @description combo组合组件
      * @since 2018/03/16
      */
-	import _ from 'lodash';
+    import _ from 'lodash';
     import flat from 'flat';
     import mixinSchema from '../../../src/mixin/schema';
     import FbSheet from '../../fb-form/src/sheet';

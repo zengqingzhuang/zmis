@@ -19,7 +19,7 @@
           return {
                 // 打开全部折叠项
                 activeNames: []
-            }
+            };
         },
         components: {
             FbSheet,
@@ -83,7 +83,7 @@
                     schema = {schema.actions}
                     buttonClassName = {schema.buttonClassName}
                     callback = {this.getFormData}>
-                </fb-action>
+                </fb-action>;
             }
             if (schema.fieldSet) {
                 const elCollapse = schema.fieldSet.map(field => {
@@ -111,7 +111,7 @@
                 return (<el-collapse value={this.activeNames}>
                             <el-form
                                 ref={schema.name} 
-                                model={this.model} 
+                                prop={{model: this.model}} 
                                 label-width={(schema.labelWidth || 100) + 'px'}
                                 label-position= {schema.labelPosition || 'right'}>
                                 {elCollapse} {actions}
@@ -119,7 +119,7 @@
                         </el-collapse>);
             }
         }
-    }
+    };
 </script>
 <style type="text/less" lang="less">
     .el-collapse-item-hidden {

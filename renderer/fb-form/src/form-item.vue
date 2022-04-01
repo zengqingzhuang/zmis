@@ -16,7 +16,7 @@
         mixins: [mixinSchema],
         data() {
             return {
-            }
+            };
         },
         components:{
             FbSheet,
@@ -60,12 +60,12 @@
                     schema = {schema.actions}
                     buttonClassName = {schema.buttonClassName}
                     callback = {this.getFormData}>
-                </fb-action>
+                </fb-action>;
             }
             return (
                 <el-form 
                         ref = {schema.name} 
-                        model = {this.model} 
+                        prop = {{model: this.model}} 
                         label-width = {(schema.labelWidth || 100) + 'px'}
                         label-position = {schema.labelPosition || 'right'}>
                         <fb-sheet
@@ -76,9 +76,9 @@
                         </fb-sheet>
                         {actions}
                 </el-form>
-            )
+            );
         }
-    }
+    };
 </script>
 <style lang="less" type="text/less">
 </style>

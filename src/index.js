@@ -29,7 +29,7 @@ import FbAction from '../renderer/fb-action';
 import {FbForm, FbFormSet, FbTabs, FbSheet} from '../renderer/fb-form';
 import FbTable from '../renderer/fb-table';
 import FbDialog from '../renderer/fb-dialog';
-module.exports = {
+export default {
     components: {
         FbPage,
         FbAction,
